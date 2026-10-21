@@ -1,1 +1,13 @@
-:root { --color-theme: #b45309; --color-theme-dark: #78350f; --summary-gradient: linear-gradient(135deg, #b45309 0%, #451a03 100%); } body { transition: background-color 0.3s ease; } #venue-summary-box { background: var(--summary-gradient); }
+:root {
+    --color-theme: #b45309;
+    --color-theme-dark: #78350f;
+    --summary-gradient: linear-gradient(135deg, #b45309 0%, #451a03 100%);
+}
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+body { transition: background-color 0.3s ease; }
+#venue-summary-box { background: var(--summary-gradient); }
+.card-hover { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.card-hover:hover { transform: translateY(-4px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); }
