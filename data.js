@@ -1,7 +1,7 @@
 const SPOT_DATA = {
     theme: "history",
     hero: {
-        coverImage: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&w=1600&q=80",
+        coverImage: "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1600&q=80&fm=webp",
         category: "Tarihi Yer & Kültür Mirası",
         badge: "Gezi Rotası",
         title: "Istanbul Misir Carsisi ",
