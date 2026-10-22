@@ -11,3 +11,12 @@ body { transition: background-color 0.3s ease; }
 #venue-summary-box { background: var(--summary-gradient); }
 .card-hover { transition: transform 0.2s ease, box-shadow 0.2s ease; }
 .card-hover:hover { transform: translateY(-4px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); }
+
+/* Dinamik Kart Efektleri */
+#why-visit-cards > div, #must-see-items > div, #hotel-list > div, #restaurant-list > div {
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+#why-visit-cards > div:hover, #must-see-items > div:hover, #hotel-list > div:hover, #restaurant-list > div:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.08) !important;
+}
