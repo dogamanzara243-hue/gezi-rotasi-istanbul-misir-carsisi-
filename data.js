@@ -1,7 +1,7 @@
 const SPOT_DATA = {
     theme: "history",
     hero: {
-        coverImage: "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1600&q=80&fm=webp",
+        coverImage: "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&fm=webp&w=1600&q=80&fm=webp",
         category: "Tarihi Yer & Kültür Mirası",
         badge: "Gezi Rotası",
         title: "Istanbul Misir Carsisi ",
@@ -33,10 +33,10 @@ const SPOT_DATA = {
         { icon: "fa-solid fa-camera", title: "Eşsiz Atmosfer", description: "Fotoğraf severler ve tarih meraklıları için büyüleyici kareler." }
     ],
     mustSee: [
-        { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&w=1600&q=80", title: "Ana Yapı", description: "Müthiş işçilikle inşa edilmiş ana mimari unsurlar." },
-        { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&w=1600&q=80", title: "Tarihi Avlular", description: "Geçmişin izlerini taşıyan görkemli alanlar." },
-        { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&w=1600&q=80", title: "İç Mekan Detayları", description: "El işçiliği süslemeler ve tarihi eserler." },
-        { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&w=1600&q=80", title: "Panoramik Görünüm", description: "Çevrenin ve yapının en güzel açılardan görünümü." }
+        { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&fm=webp&w=1600&q=80", title: "Ana Yapı", description: "Müthiş işçilikle inşa edilmiş ana mimari unsurlar." },
+        { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&fm=webp&w=1600&q=80", title: "Tarihi Avlular", description: "Geçmişin izlerini taşıyan görkemli alanlar." },
+        { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&fm=webp&w=1600&q=80", title: "İç Mekan Detayları", description: "El işçiliği süslemeler ve tarihi eserler." },
+        { image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b3a9b?auto=format&fit=crop&fm=webp&w=1600&q=80", title: "Panoramik Görünüm", description: "Çevrenin ve yapının en güzel açılardan görünümü." }
     ],
     transportation: {
         methods: [
